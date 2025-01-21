@@ -93,6 +93,6 @@ pub fn main() !void {
         };
         sim(&particles);
         std.debug.print("\n", .{});
-        std.Thread.sleep(70000000);
+        std.Thread.sleep(200_000_000);
     }
 }
